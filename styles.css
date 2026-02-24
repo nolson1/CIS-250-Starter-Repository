@@ -159,7 +159,8 @@ a:hover {
 .nav-logo i {
     color: var(--primary-color);
     margin-right: 10px;
-    font-size: 1.8rem;
+  /*font-size: 1.8rem;*/
+    font-size: 3rem;
 }
 
 .nav-menu {
@@ -198,6 +199,11 @@ a:hover {
     display: none;
     flex-direction: column;
     cursor: pointer;
+}
+
+/* Center title next to logo */
+.nav-logo p{
+    margin: 0;
 }
 
 .nav-toggle span {
